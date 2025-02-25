@@ -15,7 +15,7 @@ local virtuousdeck = {
 	name = "virtuousdeck",
 	key = "virtuousdeck",  
     atlas = "backs",
-    pos = { x = 0, y = 0 },
+    pos = { x = 1, y = 0 },
 	config = {vouchers = { "v_hieroglyph"}, consumables = {"c_sonfive_timerball"}},
   loc_vars = function(self, info_queue, center)
     return {vars = {}}
