@@ -1,4 +1,4 @@
-# **Pokermon+**
+# **Sonfive's Pokermon+**
 This is an add-on mod for Pokermon - an add-on mod for Balatro. 
 Current adds the following:<br/><br/>
   **Jokers**: Shuckle<br/><br/>
