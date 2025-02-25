@@ -40,7 +40,7 @@ return {
             c_sonfive_timerball = {
                 name = "Timer Ball",
                 text = {
-                    "Create a random {V:1}#1# {C:attention} Joker Pokemon{}",
+                    "Create a random {V:1}#1#{C:attention} Joker Pokemon{}",
                     "Rarity increases in #2# rounds!",
                     "{C:inactive}(Must have room)"
                 },
@@ -50,7 +50,7 @@ return {
             c_sonfive_timerball_max = {
                 name = "Timer Ball",
                 text = {
-                    "Create a random {V:1}#1# {C:attention}Joker Pokemon{}",
+                    "Create a random {V:1}#1#{C:attention}Joker Pokemon{}",
                     "{C:inactive}(Must have room)"
                 },
             },
