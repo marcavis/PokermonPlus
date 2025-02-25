@@ -49,7 +49,6 @@ local timerball = {
   end,
   
   use = function(self, card, area, copier)
-    set_spoon_item(card)
     if (G.GAME.round - card.ability.extra.round_on_add) < 3 then
       G.E_MANAGER:add_event(Event({trigger = 'after', delay = 0.4, func = function()
         play_sound('timpani')
@@ -111,7 +110,6 @@ can_use = function(self, card)
   end
 end,
 use = function(self, card, area, copier)
-  set_spoon_item(card)
   if G.jokers.highlighted[1].ability.perishable then 
     G.jokers.highlighted[1].ability.perish_tally = (G.jokers.highlighted[1].ability.perish_tally + 2)
     G.jokers.highlighted[1]:set_debuff(false)
