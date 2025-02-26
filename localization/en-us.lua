@@ -14,8 +14,8 @@ return {
                 name = "Virtuous Deck",
                 text={
                     "Start run with the",
-                    "{C:tarot}Hieroglyph{} voucher",
-                    "and a {C:tarot}Timer Ball{} card"
+                    "{C:tarot,T:v_hieroglyph}Hieroglyph{} voucher",
+                    "and a {C:tarot,T:c_sonfive_timerball}Timer Ball{} card"
                 }
             },
 
@@ -28,7 +28,7 @@ return {
                 name = "Shuckle",
                 text = {
                     "When blind is selected",
-                    "create a {C:attention}Berry Juice{} card",
+                    "create a {C:attention,T:c_sonfive_berryjuice}Berry Juice{} card",
                     "{C:inactive}(Must have room)"
                 }
             }
